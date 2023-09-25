@@ -4,8 +4,10 @@
 # https://docs.microsoft.com/azure/devops/pipelines/apps/aspnet/build-aspnet-4
 
 trigger:
-- master
-- Dev
+  branches:
+    include:
+      - master
+      - development
 
 pool:
   name: ForRundowmPool
