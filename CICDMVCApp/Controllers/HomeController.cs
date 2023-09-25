@@ -6,6 +6,7 @@ namespace CICDMVCApp.Controllers
 {
     public class HomeController : Controller
     {
+    // for azure boards integration
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
