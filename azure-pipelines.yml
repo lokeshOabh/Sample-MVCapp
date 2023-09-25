@@ -7,7 +7,7 @@ trigger:
   branches:
     include:
       - master
-      - development
+      - Dev
 
 pool:
   name: ForRundowmPool
