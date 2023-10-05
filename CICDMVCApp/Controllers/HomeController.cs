@@ -10,6 +10,7 @@ namespace CICDMVCApp.Controllers
 
         public HomeController(ILogger<HomeController> logger)
         {
+            //for commit test
             _logger = logger;
         }
 
