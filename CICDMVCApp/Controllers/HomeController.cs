@@ -12,6 +12,8 @@ namespace CICDMVCApp.Controllers
         {
             //for commit test
             // New commit on Dev.
+
+            // Login Page feature implemented
             _logger = logger;
         }
 
