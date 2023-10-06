@@ -11,7 +11,7 @@ namespace CICDMVCApp.Controllers
         public HomeController(ILogger<HomeController> logger)
         {
             //for commit test
-            // New commit on Dev.
+            // New commit on Deve.
             _logger = logger;
         }
 
