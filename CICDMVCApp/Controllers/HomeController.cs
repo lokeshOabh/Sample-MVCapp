@@ -16,7 +16,7 @@ namespace CICDMVCApp.Controllers
             // Login Page feature implemented
             _logger = logger;
         }
-
+        // Development code implemented
         public IActionResult Index()
         {
             return View();
