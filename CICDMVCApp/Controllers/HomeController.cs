@@ -17,7 +17,7 @@ namespace CICDMVCApp.Controllers
             // new commit to test triggers
             _logger = logger;
         }
-
+        // Development code implemented
         public IActionResult Index()
         {
             return View();
