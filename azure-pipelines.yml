@@ -10,7 +10,7 @@ trigger:
       - Dev
 
 pool:
-  name: ForRundowmPool
+  name: HostMachine-Pool
   demands:
   - msbuild
   - visualstudio
